@@ -1,42 +1,68 @@
-# Face Detection Using OpenCV
+# Image Processing Using Pillow (PIL)
 
 ## Overview
-This project is a real-time face detection system built using Python and OpenCV. It detects human faces from static images as well as live webcam video streams using OpenCV’s pre-trained Haar Cascade classifier.
+This project demonstrates image processing and manipulation techniques using Python’s Pillow (PIL) library. It includes various operations such as resizing, cropping, rotating, filtering, watermarking, and enhancing images.
 
-The project is lightweight, fast, and beginner-friendly, making it a great introduction to computer vision concepts.
+The project is beginner-friendly and showcases how Python can be used for basic computer graphics and image editing tasks.
 
 ---
 
 ## Features
-- Face detection using OpenCV Haar Cascade
-- Supports image input
-- Supports real-time webcam/video feed
-- Draws bounding boxes around detected faces
-- Fast and lightweight execution
-- Easy to customize and extend
+- Resize images
+- Crop images
+- Rotate and flip images
+- Apply image filters and effects
+- Convert image formats
+- Add text or watermark to images
+- Image enhancement and adjustments
+- Lightweight and easy to customize
 
 ---
 
 ## Technologies Used
 - Python
-- OpenCV (cv2)
+- Pillow (PIL)
 - NumPy
 
 ---
 
 ## Project Workflow
-1. Load Haar Cascade classifier
-2. Read image or webcam stream
-3. Convert frame to grayscale
-4. Detect faces using `detectMultiScale()`
-5. Draw bounding boxes around detected faces
-6. Display output in real time
+1. Load image using Pillow
+2. Perform image manipulation operations
+3. Apply filters or enhancements
+4. Save processed image
+5. Display final output
+
+## Image Operations Included
+- Resize Images
+- Crop Images
+- Rotate Images
+- Blur & Sharpen Effects
+- Grayscale Conversion
+- Brightness & Contrast Adjustment
+- Watermarking
+- Format Conversion
 
 ---
 
-## Installation
+## Applications
+- Photo Editing Tools
+- Watermarking Systems
+- Social Media Image Processing
+- Graphic Design Automation
+- AI & Computer Vision Preprocessing
 
-### Clone Repository
-```bash
-git clone https://github.com/your-username/face-detection-opencv.git
-cd face-detection-opencv
+---
+
+## Future Improvements
+- Add GUI using Tkinter or Streamlit
+- Batch image processing support
+- AI-powered image enhancement
+- Face detection integration
+- Real-time image filters
+
+---
+
+## Author
+### Rounak Moryani
+Aspiring Data Scientist & Python Developer
